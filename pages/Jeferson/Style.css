@@ -1,0 +1,84 @@
+.titulo-rojo {
+  color: red;
+}
+
+.titulo-azul {
+  color: blue;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.image img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+  border:10px solid rgb(29, 31, 79)
+}
+
+body {
+  background-color: rgb(242, 245, 165);
+}
+
+* {
+  margin: 10px;
+}
+
+.image img, .image p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.texto-grande {
+  font-size: 20px;
+}
+
+.image-2 img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  text-align: left;
+  float: right;
+  border:10px solid rgb(29, 31, 79)
+}
+
+.image-3 img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  text-align: right;
+  float: left;
+  border:10px solid rgb(94, 98, 216)
+}
+
+body {
+  background-image: url('assets\images\Inteligencia-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mi-clase {
+  background-image: url('assets\images\Inteligencia-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

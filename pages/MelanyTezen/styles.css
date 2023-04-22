@@ -1,0 +1,68 @@
+* {
+    color: white;
+}
+
+body {
+    background-image: url(assets/imgs/fondo.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed ;
+    backface-visibility: hidden;
+}
+
+h1 {
+color: white;
+background-color: green;
+margin-bottom: 20px;
+margin-top: 20 px;
+padding: 50px;
+border: 10 px solid black;
+font-weight: 500;
+font-family: Arial;
+}
+
+h2 {
+color: orange;
+font-family: Arial;
+}
+
+h3 {
+color: yellowgreen;
+font-family: Arial;
+}
+
+p {
+color: white;
+font-weight: 30;
+font-family: Arial;
+font-size: 18px;
+}
+
+li {
+font-size: 18px;
+font-family: Arial;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+
+#mt {
+    text-align: right;
+}
+
+#mtc {
+    display: flex ;
+    justify-content: right;
+}

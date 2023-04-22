@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+ 
+    <title>AGENTES INTELIGENTES Y LOGICOS</title>
+</head>
+<body>
+
+
+    <h1 id="inicio" class="text-center"><u>AGENTES INTELIGENTES</u> </h1>
+    <P>La forma de actuar del agente depende de la naturaleza del medio; algunos habitats son mas complejos que otros.</P>
+
+    <h2>Agentes y su Entorno</h2>
+    <p>Un agente es cualquier cosa capaz de percibir su medioambiente con la ayuda de sensores y actuar en ese medio utilizando actuadores.</p>
+    
+    <div class="contenedor">
+    <img src="assets/imgs/primero.png" width="350" height="350" >
+    </div>
+    
+    <p>El termino percepcion se utiliza en este contexto para indicar que el agente puede recibir entradas en cualquier instante. La secuencia de percepciones 
+        de un agente refleja el historial completo de lo que el agente ha recibido.</p>
+
+    <h3>Buen comportamiento: concepto de Racionalidad</h3>
+    <p>La racionalidad en un momento determinado depende de cuatro factores: </p>
+      <ul>
+        <li>La medida de rendimiento que define el criterio de exito.</li>
+        <li>El conocimiento del medio en el que habita acumulado por el agente.</li>
+        <li>Las acciones que el agente puede llevar a cabo.</li>
+        <li>La secuencia de percepciones del agente hasta este momento. </li>
+      </ul>
+    <p>La medida de rendimiento evalua el comportamiento del agente en un medio. Un agente racional actua con la intencion de maximizar el valor esperado
+       de la medida de rendimiento, dada la secuencia de percepciones que ha observado hasta el momento.</p>
+
+    <h3>La naturaleza del entorno</h3>
+    <p class="text-justify"> Las especificaciones del entorno de trabajo incluyen la medida de rendimiento, el medio externo, los actuadores y los sensores. El primer paso en el
+       diseno de un agente debe ser siempre la especificacion, tan completa como sea posible, del entorno de trabajo. El entorno de trabajo varia segun distintos parametros. Pueden ser total o parcialmente visibles, deterministas o estocasticos, episodicos o secuenciales,
+       estaticos o dinamicos, discretos o continuos, y formados por un unico agente o por varios agentes.</p>
+
+    <h3>Estructura de los agentes</h3>
+    <p>El programa del agente implementa la funcion del agente. Existe una gran variedad de disenos de programas de agentes, y reflejan el tipo de informacion 
+        que se hace explicita y se utiliza en el proceso de decision. Los disenos varian en eficiencia, solidez y flexibilidad.
+       El diseno depende en gran medida de la naturaleza del medio.</p>
+
+    <h2>Agentes Reactivos Simples y Basados en Modelos</h2>
+    <p>Los simples corresponden directamente a las percepciones, mientras que los basados en modelos mantienen un estado interno que les permite seguir el rastro
+        de aspectos del mundo que no son evidentes segun las percepciones actuales. </p>
+
+    <h2>Agentes basados en Objetivos y Utilidad</h2>
+    <p class="text-justify"> Los agentes basados en objetivos actuan con la intencion de alcanzar sus metas, y los agentes basados en utilidad intentan maximizar su felicidad deseada. </p>
+    <br>
+    <p> <b>Todos los agentes pueden mejorar su eficacia con la ayuda de mecanismos de aprendizaje.</b> </p>
+
+    <h1 class="text-center"> <u>AGENTES LOGICOS</u></h1>
+    <P class="text-justify"> Tanto el conocimiento como el razonamiento son tambien importantes para los agentes artificiales, porque les permiten comportamientos con exito que 
+       serian muy dificiles de alcanzar mediante otros mecanismos. El conocimiento y el razonamiento juegan un papel importante cuando se trata con entornos 
+       parcialmente observables.  </P>
+
+    <h3>Agentes Basados en Conocimiento</h3>
+    <p>Los agentes inteligentes necesitan el conocimiento acerca del mundo para tomar las decisiones acertadas. Un agente basado en conocimiento puede
+       combinar el conocimiento general con las percepciones reales para inferir aspectos ocultos del estado del mundo, antes de seleccionar cualquier 
+       accion. Estos agentes contienen el conocimiento en forma de sentencias mediante un lenguaje de representacion del conocimiento, las cuales quedan 
+       almacenadas en una base de conocimiento.</p>
+
+    <h3>Sentencias</h3>
+    <p class="text-justify"> El agente opera almacenando las sentencias acerca del mundo en su base de conocimiento, utilizando el mecanismo de inferencia para inferir 
+        sentencias nuevas, y utilizando estas sentencias nuevas para decidir que accion debe tomar. Cada sentencia se expresa en un lenguaje denominado 
+        lenguaje de representacion del conocimiento, este se define por su sintaxis, que especifica la estructura de las sentencias, y su semantica, 
+        que define el valor de verdad de cada sentencia en cada mundo posible, o modelo. La relacion de implicacion entre las sentencias es crucial 
+        para nuestro entendimiento acerca del razonamiento.</p>
+
+    <h3>La Inferencia</h3>
+    <p class="text-justify"> Es el proceso que consiste en derivar nuevas sentencias a partir de las ya existentes. Los algoritmos de inferencia solidos solo derivan aquellas
+        sentencias que son implicadas; los algoritmos completos derivan todas las sentencias implicadas. <br>
+        Las reglas de inferencia son patrones de inferencia solidos que se pueden utilizar para encontrar demostraciones. De la regla de resolucion
+        obtenemos un algoritmo de inferencia completo para bases de conocimiento que estan expresadas en forma normal conjuntiva.
+        </p>
+
+    <h3>El Mundo de Wunpus</h3>
+    <p class="text-justify"> Es una cueva que esta compuesta por habitaciones conectadas mediante pasillos. Escondido en algun lugar de la cueva esta el wumpus, una bestia que 
+       se come a cualquiera que entre en su habitacion. El wumpus puede ser derribado por la flecha de un agente, y este solo dispone de una. Algunas 
+       habitaciones contienen hoyos sin fondo que atrapan a aquel que deambula por dichas habitaciones.</p>
+
+       <div class="contenedor">
+        <img src="assets/imgs/segunda.png" width="500" height="350">
+       </div>
+       
+
+    <h2>Logica</h2>
+    <p class="text-justify"> La logica proposicional es un lenguaje muy sencillo compuesto por los simbolos proposicionales y las conectivas logicas. De esta manera se pueden
+        manejar proposiciones que se sabe son ciertas, falsas, o completamente desconocidas. <br>
+        El conjunto de modelos posibles, dado un vocabulario proposicional fijado, es finito, y asi se puede comprobar la implicacion tan solo enumerando 
+        los modelos. Los algoritmos de inferencia basados en la comprobacion de modelos mas eficientes para la logica proposicional, entre los que se 
+        encuentran los metodos de busqueda local y backtracking, a menudo pueden resolver problemas complejos muy rapidamente. <br> La logica proposicional
+        es razonablemente efectiva para ciertas tareas de un agente, pero no se puede escalar para entornos de tamano ilimitado, a causa de su falta de poder
+        expresivo para manejar el tiempo de forma precisa, el espacio, o patrones genericos de relaciones entre objetos. </p>
+
+    <h3>Agentes de Inferencia y Agentes Basados en circuitos</h3>
+    <p class="text-justify"> Se pueden disenar dos tipos de agentes que utilizan la logica proposicional: los agentes basados en inferencia, estos utilizan algoritmos de 
+       inferencia para guardar la pista del mundo y deducir propiedades ocultas, mientras que los agentes basados en circuitos representan proposiciones 
+       mediante bits en registros, y los actualizan utilizando la propagacion de senal de los circuitos logicos. </p>
+        
+       <div class="contenedor">
+        <img src="assets/imgs/tercero.jpg" width="530" height="480">
+       </div>
+       <br>
+       <br>
+
+
+
+       <h3 class="text-center">Video de Agentes Inteligentes</h3>
+       
+       <div class="contenedor">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/qoJqutd8Q2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+        <br>
+       
+       <h3 class="text-center">Video de Inteligencia Artificial - Agentes Lógicos</h3>
+       <div class="contenedor">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/SX9glRB9bBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+
+    <br>
+    <br>
+    <p> <a href="#inicio"> Volver arriba</a></p>
+    <br>
+    <br>
+    <br>
+    <p id=mt class="text-right">Melany Tezen</p>
+    <div id=mtc class="contenedor"> 
+     <img src="assets/imgs/foto.jpg" width="150" height="250">
+    </div>
+    
+</body>
+</html>

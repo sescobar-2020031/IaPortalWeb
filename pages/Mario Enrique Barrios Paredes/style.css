@@ -1,0 +1,36 @@
+body {background-image: url(blue-circuit-board-background-computer-motherboard-electronic-computer-hardware-technology-integrated-communication-processor-200454210.jpg);
+background-size: cover;
+}
+.imagen {width: 500px;
+    margin-left: 50px;
+}
+.contenedor {display: flex;}
+.imagen1 {width: 500px;
+margin-right: 50px;}
+.imagen2 {width: 400px;
+margin-left: 50px;}
+.imagen3 {width: 500px;}
+.imagen4 {width: 500px;
+margin-left: 660px;}
+.imagen5 {width: 500px;
+    margin-left: 1330px;}
+.RD {display: flex;}
+.imagen6 {width: 500px;
+    margin-left: 50px;}
+.resultados {display: flex;}
+.imagen7 {width: 500px;
+margin-right: 50px;}
+.Sistemas {display: flex;}
+.imagen8 {width: 500px;
+margin-left: 50px;}
+.información {display: flex;}
+.imagen9 {width: 500px;
+margin-left: 50px;}
+.automática {display: flex;}
+.imagen10 {width: 500px;
+margin-left: 50px;}
+.Foto {display: flex;}
+.mi {width: 400px;
+margin-left: 100px;}
+.me {width: 900px;
+margin-left: 250px;}

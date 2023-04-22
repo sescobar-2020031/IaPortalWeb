@@ -1,0 +1,29 @@
+body {
+    color:blanchedalmond
+}
+body {
+background-image: url("185547077-fondo-azul-oscuro-abstracto-con-gráfico-de-forma-geométrica-brillante-concepto-corporativo-moderno.jpg")
+
+}
+body{
+    text-align: start;
+    font-family: sans-serif;
+
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #1717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.texto{
+    text-align:justify ;
+}
+
+

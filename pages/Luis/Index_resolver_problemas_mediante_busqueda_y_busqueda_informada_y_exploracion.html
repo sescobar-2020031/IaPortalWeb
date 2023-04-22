@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligencia Artificial</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="shortcut icon" href="Asstes-imagenes/icon.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="texto-subrayado" style="color: white;">Resolver problemas mediante búsqueda:</h1>
+        </header>
+        <section id="content">
+            <article class="article">
+                <p class="Texto" style="color: white;">Para comenzar la búsqueda de soluciones el agente debe formular un objetivo y luego debe usar ese objetivo para formular un problema.</p>
+            </article>
+            <article class="article">
+                <h2 class="titulos" style="color: white;">Un problema consiste en cuatro partes las cuales son:</h2>
+                <p class="Texto" style="color: white;">El estado inicial, un conjunto de acciones, una función para el test objetivo, y una función de costo del camino. El entorno del problema se representa por un espacio de estados. Un camino por el espacio de estados desde el estado inicial a un estado objetivo es una solución.</p>
+            </article>
+            <article class="article">
+                <p class="Texto" style="color: white;">Un algoritmo sencillo y general, puede usarse para resolver cualquier problema y las variantes específicas del algoritmo incorporan estrategias diferentes.</p>
+            </article>
+            <article class="article">
+                <p class="Texto" style="color: white;">Los algoritmos de búsqueda se juzgan sobre la base de completitud, optimización, complejidad en tiempo y complejidad en espacio. La complejidad depende de factor de ramificación en el espacio de estados y la profundidad de la solución más superficial.</p>
+            </article>
+            <div style="text-align: center;">
+                <img src="Asstes-imagenes/Img3.png" alt="">
+            </div>
+            <article class="article">
+                <h2 class="titulos" style="color: white;">Existen diferentes tipos de búsquedas y son los siguientes:</h2>
+                <p class="Texto" style="color: white;">La búsqueda primero en anchura selecciona para su expansión el nodo no expandido más superficial en el árbol de búsqueda. Es completo, óptimo para costos unidad, y tiene la complejidad en tiempo y en espacio.</p>
+            </article>
+            <article class="article">
+                <p class="Texto" style="color: white;">La búsqueda de coste uniforme es similar a la búsqueda primero en anchura pero expande el nodo con el costo más pequeño del camino. Es completo y óptimo si el costo de cada paso excede de una cota positiva.</p>
+            </article>
+            <article class="article">
+                <p class="Texto" style="color: white;">La búsqueda primero en profundidad selecciona para la expansión el nodo no expandido más profundo en el árbol de búsqueda. No es ni completo, ni óptimo, y tiene la complejidad en tiempo de O y la complejidad en espacio de O, donde m es la profundidad máxima de cualquier camino en el espacio de estados.</p>
+            </article>
+            <article class="article">
+                <p class="Texto" style="color: white;">La búsqueda de profundidad limitada impone un límite de profundidad fijo a una búsqueda primero en profundidad.</p>
+            </article>
+            <article class="article">
+                <p class="Texto" style="color: white;">La búsqueda de profundidad iterativa llama a la búsqueda de profundidad limitada aumentando este límite hasta que se encuentre un objetivo. Es completo, óptimo para costos unidad, y tiene la complejidad en tiempo de O y la complejidad en espacio de O.</p>
+            </article>
+        </article>
+        <article class="article">
+            <p class="Texto" style="color: white;">La búsqueda bidireccional puede reducir enormemente la complejidad en tiempo, pero no es siempre aplicable y puede requerir demasiado espacio.</p>
+        </article>
+        <div style="text-align: center;">
+            <img src="Asstes-imagenes/Img1.png" alt="">
+        </div>
+            <header>
+                <h1 class="texto-subrayado" style="color: white;">Búsqueda informada y exploración:</h1>
+            </header>
+            <article class="article">
+                <h2 class="titulos" style="color: white;">La búsqueda heurística:</h2>
+                <p class="Texto" style="color: white;">Se refiere a la exploración de un conjunto de posibles soluciones para encontrar la mejor solución, utilizando una estrategia guiada por una función heurística. La función heurística proporciona una estimación del costo o la calidad de cada posible solución, lo que permite al algoritmo de búsqueda enfocarse en las soluciones más prometedoras. </p>
+            </article>
+            <article class="article">
+                <p class="Texto" style="color: white;">La búsqueda A* es una técnica de búsqueda informada que utiliza una función heurística para guiar la exploración de soluciones y lograr una mejor eficiencia.</p>
+            </article>
+            <article class="article">
+                <h2 class="titulos" style="color: white;">Búsqueda primero el mejor:</h2>
+                <p class="Texto" style="color: white;">Es una BÚSQUEDA-GRAFO donde los nodos no expandidos de costo mínimo (según alguna medida) se escogen para la expansión.</p>
+            </article>
+            <article class="article">
+                <h2 class="titulos" style="color: white;">Búsqueda primero el mejor avara:</h2>
+                <p class="Texto" style="color: white;">Expande nodos con h(n) mínima. No es óptima, pero es a menudo eficiente.</p>
+            </article>
+            <article class="article">
+                <h2 class="titulos" style="color: white;">BRPM y A*MS:</h2>
+                <p class="Texto" style="color: white;">Son algoritmos de búsqueda robustos y óptimos que utilizan cantidades limitadas de memoria; con suficiente tiempo, pueden resolver los problemas que A* no puede resolver porque se queda sin memoria.</p>
+            </article>
+            <article class="article">
+            <h2 class="titulos" style="color: white;">Algoritmo Genético:</h2>
+            <p class="Texto" style="color: white;">Es una búsqueda de ascensión de colinas estocástica en la que se mantiene una población grande de estados. Los estados nuevos se generan por mutación y por cruce, combinando pares de estados de la población. </p>
+            </article>
+            <article class="article">
+                <h2 class="titulos" style="color: white;">La Exploración:</h2>
+                <p class="Texto" style="color: white;"> La exploración se refiere a la capacidad de un agente inteligente para buscar nuevas soluciones en lugar de seguir soluciones ya conocidas. La exploración es especialmente importante en entornos dinámicos y cambiantes, donde el agente debe adaptarse a nuevas situaciones para resolver problemas de manera efectiva.</p>
+            </article> 
+            <article class="article">
+            <h2 class="titulos" style="color: white;">Los Problemas de Exploración:</h2>
+            <p class="Texto" style="color: white;">Surgen cuando el agente no tiene la menor idea acerca de los estados y acciones de su entorno. Para entornos seguramente explorables, los agentes de búsqueda en línea pueden construir un mapa y encontrar un objetivo si existe. Las estimaciones de las heurística, que se actualizan por la experiencia, proporcionan un método efectivo para escapar de mínimos locales.</p>
+            </article>
+        <div style="text-align: center;">
+            <img src="Asstes-imagenes/Img4.png" alt="">
+        </div>
+        </section>
+        <footer style="color: white;">
+           <h4>Hecho por Luis Corado</h4>
+        </footer>
+        <div style="text-align: center;">
+            <img src="Asstes-imagenes/img2.png" width="150px" height="150px">
+        </div>
+</body>
+</html>

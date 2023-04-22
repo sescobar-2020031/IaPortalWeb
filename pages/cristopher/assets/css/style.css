@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('assets/imagenes/fondo.jpg') repeat;
+  background-size: cover;
+}
+
+.box {
+  width: 1000px;
+  background: rgba(27, 26, 60, 0.68);
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+  border-radius: 15px;
+  /* box-shadow: 7px 13px 37px black; */
+}
+
+.box-img {
+  border-radius: 120%;
+  float:left;
+
+}
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin: 30px 0 20px;
+}
+
+.box h2 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 30px
+}
+
+.box p {
+  font-size: 15px;
+  font-weight: 50;
+  text-align: justify;
+}
+.box h3{
+  font-size: 20px;
+  font-weight: 50;
+  text-align: justify;
+
+}
